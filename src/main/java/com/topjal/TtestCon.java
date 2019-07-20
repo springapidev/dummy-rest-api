@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/")
-@CrossOrigin(value = "https://springapidev.github.io/angular8-crud/")
+@CrossOrigin(value = "*")
 public class TtestCon {
 
     @Autowired
